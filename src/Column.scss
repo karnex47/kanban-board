@@ -1,0 +1,22 @@
+.column {
+    margin: 0 10px;
+    border: 1px solid #e4e4e4;
+    min-height: 300px;
+    width: 200px;
+    .title-section {
+        padding: 5px;
+        background-color: #e4e4e4;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &.drag-left {
+        margin-left: 210px;
+    }
+    &.drag-right {
+        margin-right: 210px;
+    }
+    &.dragging {
+        opacity: 0.5;
+    }
+}

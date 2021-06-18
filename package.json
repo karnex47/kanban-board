@@ -1,0 +1,25 @@
+{
+  "name": "react-kanban",
+  "version": "1.0.0",
+  "description": "A minimal React.js application to simulate github kanban board",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --open"
+  },
+  "keywords": [
+    "parcel",
+    "react"
+  ],
+  "author": "Aritra Das",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.35.1"
+  }
+}
